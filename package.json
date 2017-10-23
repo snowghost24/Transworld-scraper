@@ -1,0 +1,30 @@
+{
+  "name": "transworld-scraper",
+  "version": "1.0.0",
+  "description": "scrapping the transworld",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowghost24/Transworld-scraper.git"
+  },
+  "author": "Jose Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snowghost24/Transworld-scraper/issues"
+  },
+  "homepage": "https://github.com/snowghost24/Transworld-scraper#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.12.3",
+    "request": "^2.83.0"
+  }
+}
