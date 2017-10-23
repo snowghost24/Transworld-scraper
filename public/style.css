@@ -1,0 +1,62 @@
+h1 {
+   font-size: 68px;
+   font-family: 'Anton', sans-serif;
+  
+}
+
+a {
+   font-size: 24px;
+   font-family: 'Anton', sans-serif;
+   ;
+}
+
+p {
+   font-size: 20px;
+   /* font-family: 'Passion+One'; */
+}
+
+button {
+   color: black;
+   background-color: black;
+}
+
+/* .articles {
+   background-color: lightblue;
+} */
+
+/* .articles2 {
+   background-color: lightblue;
+} */
+a{
+   
+}
+.navbar-brand {
+   font-size: 22px;
+   
+   }
+/* #navbarNav{
+   background: purple;
+} */
+#navbarNav > ul > li:nth-child(1) > a{
+   color: black;
+}
+#mongo {
+   background-color: white;
+}
+
+.colorDiv{
+   padding: 3px; margin-bottom: 3px; border: 0.5px solid black;  font-size: 15px;
+}
+
+.articles{
+   padding: 40px;
+   background-color: black;
+   text-align: center;
+   color: white;
+}
+
+.saveArticle {
+   color: white;
+   border-color: white;
+
+}

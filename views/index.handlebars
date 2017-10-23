@@ -1,0 +1,34 @@
+
+{{#each found}}
+
+<div class="articles jumbotron">
+    <a href="{{this.link}}">{{this.title}}</a>
+    <p>{{this.summary}}</p>
+    <button class=" saveArticle btn float-right" data-id="{{this._id}}">Save Article</button>
+</div>
+{{/each}}
+
+<script type="text/javascript">
+
+
+$(".saveArticle").on("click", function(){
+ 
+    $.post("/save/" + $(this).data().id , function(data){
+
+         window.location.href = "/";
+    });
+})
+
+$("#scrapeBtn").on("click", function(){
+
+
+$.get("/scrape", function(data){
+
+        alert(data);
+    window.location.href = "/";
+})
+
+
+})
+</script>
+
